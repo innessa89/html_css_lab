@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+}
+/*site navigation*/
+
+
+.header {
+    background-color: dodgerblue;
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.header-left {
+    color: white;
+    position: relative;
+    padding-left: 25px;
+}
+.group a{
+    list-style: none;
+    color: white;
+    
+    
+}
+.navigation li{
+    position: relative;
+    display: inline;
+    float: right;
+    top: -60px; 
+    padding: 10px;
+    margin-right: 30px;
+}
+
+/*aside sections*/
+
+/*aside left section*/
+.left-top-section{
+    position:relative;
+    left: 300px;
+}
+.left-bottom-section{
+    position:relative;
+    left: 300px;
+
+}
+.left-top-section ul{
+    list-style: none;
+}
+
+.left-top-section h2{
+    padding-left:40px;
+}
+
+.left-bottom-section h2{
+    padding-left:40px;
+}
+
+.left-bottom-section nav{
+    padding-left:20px;
+
+}
+
+/*aside right section*/
+.right-section {
+    height:300px;
+    position:relative;
+    padding-right: 25px;
+    right: -600px;
+    top: -305px;
+}   
+
+.right-section h2{
+    padding-left:40px;
+}
+
+.right-section h3{
+    padding-left:40px;
+}
+.right-section ul{
+    list-style: none;
+}
+
+.aside-paragraph{
+    display: inline-block;
+    padding:10px; 
+}
+
+.article{
+    position: relative;
+    text-align: start ;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right:100px;
+    
+}
+
+/*article fotter*/
+.comments{
+    padding-left: 100px;
+
+}
+
+
+.comments ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.input-frame{
+   width: 200px;
+}
+
+
+/*main footer*/
+.main-footer{
+    background-color: dodgerblue;
+    color: white; 
+    text-align: center;
+
+}
